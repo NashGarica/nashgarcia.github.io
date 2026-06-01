@@ -11,6 +11,7 @@
   <a href="https://www.linkedin.com/in/nash-garcia-01440934a"><img src="https://img.shields.io/badge/LinkedIn-Connect-blue?style=for-the-badge&logo=linkedin"></a>
   <a href="mailto:ni.vg@outlook.com"><img src="https://img.shields.io/badge/Email-Contact-green?style=for-the-badge&logo=gmail"></a>
   <a href="resume.html"><img src="https://img.shields.io/badge/Resume-View-orange?style=for-the-badge&logo=adobe-acrobat-reader"></a>
+  <a href="projects.html"><img src="https://img.shields.io/badge/Projects-View-brightgreen?style=for-the-badge&logo=github"></a>
 </p>
 
 ## 🚀 About Me 
