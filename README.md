@@ -3,19 +3,20 @@
 <div align="center">
   <!--  You can customize the typing text in the "lines=" section of the URL below -->
   <!--  For an ampersand (&), use &amp; (e.g., Analytics+%26+Optimization) -->
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=2E9EF7&center=true&vCenter=true&width=435&lines=Data+Analyst+%7C+Data+Entry;Turning+Data+into+Actionable+Insights;" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=2E9EF7&center=true&vCenter=true&width=435&lines=Data+Analyst+%7C+Data+Entry;Turning+Data+into+Actionable+Insights[...]
 </div>
 
 <!-- 🔗 Update these links with your own social media and contact information -->
 <p align="center">
   <a href="https://www.linkedin.com/in/nash-garcia-01440934a"><img src="https://img.shields.io/badge/LinkedIn-Connect-blue?style=for-the-badge&logo=linkedin"></a>
   <a href="mailto:ni.vg@outlook.com"><img src="https://img.shields.io/badge/Email-Contact-green?style=for-the-badge&logo=gmail"></a>
+  <a href="resume.html"><img src="https://img.shields.io/badge/Resume-View-orange?style=for-the-badge&logo=adobe-acrobat-reader"></a>
 </p>
 
 ## 🚀 About Me 
-I am an Operations Specialist transitioning into Data Analytics/Data Entry, leveraging a strong background in administration, event management, and client services. Currently completing the IBM Data Analytics Professional Certificate, I combine my operational expertise with hands-on skills in Excel and data visualization to help businesses optimize workflows and make data-driven decisions.
+I am an Operations Specialist transitioning into Data Analytics/Data Entry, leveraging a strong background in administration, event management, and client services. Currently completing the IBM Da[...]
 
-When I'm not working with data, I enjoy expanding my knowledge by taking Coursera courses on topics that interest me and researching on them on the internet. I love the "aha!" moment when data reveals something new and useful.
+When I'm not working with data, I enjoy expanding my knowledge by taking Coursera courses on topics that interest me and researching on them on the internet. I love the "aha!" moment when data rev[...]
 
 <!-- 🌐 Replace "your-username" with your actual GitHub username -->
 ### [🏆 Check Out My Full Portfolio Website](https://nashgarcia.github.io/)
