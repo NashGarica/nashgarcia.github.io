@@ -20,7 +20,7 @@ I am an Operations Specialist transitioning into Data Analytics/Data Entry, leve
 When I'm not working with data, I enjoy expanding my knowledge by taking Coursera courses on topics that interest me and researching on them on the internet. I love the "aha!" moment when data rev[...]
 
 <!-- 🌐 Replace "your-username" with your actual GitHub username -->
-### [🏆 Check Out My Full Portfolio Website](https://nashgarcia.github.io/)
+
       
 ## 🔭 What I'm Currently Working On 
 
