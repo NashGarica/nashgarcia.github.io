@@ -154,6 +154,123 @@
             text-align: center;
         }
         
+        /* Project Detail Styles */
+        .project-detail {
+            background: white;
+            border-radius: 10px;
+            padding: 30px;
+            margin-bottom: 30px;
+            box-shadow: 0 10px 40px rgba(0, 0, 0, 0.1);
+        }
+        
+        .project-detail h2 {
+            color: #667eea;
+            font-size: 2em;
+            margin-bottom: 20px;
+        }
+        
+        .gallery-container {
+            background: #f5f5f5;
+            border-radius: 10px;
+            padding: 20px;
+            margin-bottom: 30px;
+        }
+        
+        .gallery-title {
+            font-size: 1.3em;
+            font-weight: 600;
+            color: #333;
+            margin-bottom: 15px;
+        }
+        
+        .gallery-viewer {
+            width: 100%;
+            height: 500px;
+            background: white;
+            border-radius: 8px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 15px;
+            overflow: hidden;
+        }
+        
+        .gallery-viewer img {
+            max-width: 100%;
+            max-height: 100%;
+            object-fit: contain;
+        }
+        
+        .gallery-controls {
+            display: flex;
+            gap: 10px;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        
+        .gallery-btn {
+            background: #667eea;
+            color: white;
+            border: none;
+            padding: 8px 16px;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 0.9em;
+            font-weight: 500;
+            transition: background 0.3s;
+        }
+        
+        .gallery-btn:hover {
+            background: #764ba2;
+        }
+        
+        .gallery-btn.active {
+            background: #764ba2;
+        }
+        
+        .gallery-info {
+            text-align: center;
+            color: #666;
+            font-size: 0.9em;
+            margin-top: 10px;
+        }
+        
+        .excel-section {
+            background: #e3f2fd;
+            border-left: 4px solid #2196F3;
+            padding: 20px;
+            border-radius: 8px;
+            margin-bottom: 30px;
+        }
+        
+        .excel-section h3 {
+            color: #1565c0;
+            margin-bottom: 15px;
+        }
+        
+        .excel-viewer {
+            width: 100%;
+            height: 600px;
+            border: 1px solid #2196F3;
+            border-radius: 5px;
+        }
+        
+        .download-btn {
+            display: inline-block;
+            background: #667eea;
+            color: white;
+            padding: 10px 20px;
+            border-radius: 5px;
+            text-decoration: none;
+            margin-top: 15px;
+            font-weight: 500;
+            transition: background 0.3s;
+        }
+        
+        .download-btn:hover {
+            background: #764ba2;
+        }
+        
         @media (max-width: 768px) {
             .header h1 {
                 font-size: 1.8em;
@@ -161,6 +278,14 @@
             
             .projects-grid {
                 grid-template-columns: 1fr;
+            }
+            
+            .gallery-viewer {
+                height: 300px;
+            }
+            
+            .excel-viewer {
+                height: 400px;
             }
         }
     </style>
@@ -178,10 +303,10 @@
         
         <div class="projects-grid">
             
-            <!-- PROJECT 1 -->
+            <!-- PROJECT 1 - CARD VIEW -->
             <div class="project-card">
                 <div class="project-image">
-                    💰
+                    <img src="Yearly Summary.png" alt="Yearly Family Budget Summary">
                 </div>
                 <div class="project-content">
                     <h3>Yearly Family Budget</h3>
@@ -189,7 +314,7 @@
                         Created a comprehensive yearly budget for a family to track expenses and income throughout the year. The budget includes both planned and actual figures, allowing the family to monitor their financial performance against expectations on a monthly basis.
                     </p>
                     <div class="project-role">
-                        <strong>My Role:</strong> Created yearly budget from scratch in Excel detailing all expenses and income (planned and actual), built monthly summary dashboards for easy data visualization, and completed data entry, cleaning, and analysis to show where the family landed each month vs. where they expected to be.
+                        <strong>My Role:</strong> Created yearly budget from scratch in Excel detailing all expenses and income (planned and actual), built monthly summary dashboards for easy data visualization, and completed data entry, cleaning, and analysis.
                     </div>
                     <div class="technologies">
                         <label>Technologies Used:</label>
@@ -251,6 +376,55 @@
             
         </div>
         
+        <!-- PROJECT 1 DETAIL VIEW -->
+        <div class="project-detail">
+            <h2>Yearly Family Budget - Detailed View</h2>
+            
+            <div class="gallery-container">
+                <div class="gallery-title">📊 Monthly & Yearly Summaries</div>
+                <div class="gallery-viewer">
+                    <img id="galleryImage" src="Yearly Summary.png" alt="Budget Summary">
+                </div>
+                <div class="gallery-controls">
+                    <button class="gallery-btn active" onclick="showImage('Yearly Summary.png')">Yearly Summary</button>
+                    <button class="gallery-btn" onclick="showImage('January Summary.png')">January</button>
+                    <button class="gallery-btn" onclick="showImage('February Summary.png')">February</button>
+                    <button class="gallery-btn" onclick="showImage('March Summary.png')">March</button>
+                    <button class="gallery-btn" onclick="showImage('April Summary.png')">April</button>
+                    <button class="gallery-btn" onclick="showImage('May Summary.png')">May</button>
+                    <button class="gallery-btn" onclick="showImage('June Summary.png')">June</button>
+                    <button class="gallery-btn" onclick="showImage('July Summary.png')">July</button>
+                    <button class="gallery-btn" onclick="showImage('August Summary.png')">August</button>
+                    <button class="gallery-btn" onclick="showImage('September Summary.png')">September</button>
+                    <button class="gallery-btn" onclick="showImage('October Summary.png')">October</button>
+                    <button class="gallery-btn" onclick="showImage('November Summary.png')">November</button>
+                    <button class="gallery-btn" onclick="showImage('December Summary.png')">December</button>
+                </div>
+                <div class="gallery-info">
+                    <p>Click on a month to view that summary</p>
+                </div>
+            </div>
+            
+            <div class="excel-section">
+                <h3>📁 Full Budget Spreadsheet</h3>
+                <p>View the complete Excel budget with all formulas and calculations:</p>
+                <iframe src="Yearly Family Budget.xlsx" class="excel-viewer" title="Yearly Family Budget"></iframe>
+                <a href="Yearly Family Budget.xlsx" download class="download-btn">⬇️ Download Excel File</a>
+            </div>
+        </div>
+        
     </div>
+    
+    <script>
+        function showImage(imageName) {
+            // Update image
+            document.getElementById('galleryImage').src = imageName;
+            
+            // Update active button
+            const buttons = document.querySelectorAll('.gallery-btn');
+            buttons.forEach(btn => btn.classList.remove('active'));
+            event.target.classList.add('active');
+        }
+    </script>
 </body>
 </html>
