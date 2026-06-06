@@ -3,7 +3,7 @@
 <div align="center">
   <!--  You can customize the typing text in the "lines=" section of the URL below -->
   <!--  For an ampersand (&), use &amp; (e.g., Analytics+%26+Optimization) -->
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=2E9EF7&center=true&vCenter=true&width=435&lines=Data+Analyst+%7C+Data+Entry;Turning+Data+into+Actionable+Insights[...]
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=2E9EF7&center=true&vCenter=true&width=435&lines=Data+Analyst+%7C+Data+Entry;Turning+Data+into+Actionable+Insights" alt="Typing animation">
 </div>
 
 <!-- 🔗 Update these links with your own social media and contact information -->
@@ -15,12 +15,12 @@
 </p>
 
 ## 🚀 About Me 
-I am an Operations Specialist transitioning into Data Analytics/Data Entry, leveraging a strong background in administration, event management, and client services. Currently completing the IBM Da[...]
+I am an Operations Specialist transitioning into Data Analytics/Data Entry, leveraging a strong background in administration, event management, and client services. Currently completing the IBM Data Analytics Professional Certificate through Coursera.
 
-When I'm not working with data, I enjoy expanding my knowledge by taking Coursera courses on topics that interest me and researching on them on the internet. I love the "aha!" moment when data rev[...]
+When I'm not working with data, I enjoy expanding my knowledge by taking Coursera courses on topics that interest me and researching on them on the internet. I love the "aha!" moment when data reveals actionable insights that drive decision-making.
 
 <!-- 🌐 Replace "your-username" with your actual GitHub username -->
-
+### [🏆 Check Out My Full Portfolio Website](https://nashgarcia.github.io/)
       
 ## 🔭 What I'm Currently Working On 
 
