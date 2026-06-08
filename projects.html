@@ -154,6 +154,16 @@
             text-align: center;
         }
         
+        .subsection-title {
+            color: white;
+            font-size: 1.5em;
+            margin-top: 40px;
+            margin-bottom: 20px;
+            text-align: center;
+            border-top: 2px solid rgba(255, 255, 255, 0.3);
+            padding-top: 20px;
+        }
+        
         /* Project Detail Styles */
         .project-detail {
             background: white;
@@ -167,6 +177,28 @@
             color: #667eea;
             font-size: 2em;
             margin-bottom: 20px;
+        }
+        
+        .lab-card {
+            background: white;
+            border-radius: 10px;
+            padding: 25px;
+            margin-bottom: 20px;
+            box-shadow: 0 5px 20px rgba(0, 0, 0, 0.08);
+            border-left: 5px solid #667eea;
+        }
+        
+        .lab-card h3 {
+            color: #667eea;
+            font-size: 1.4em;
+            margin-bottom: 12px;
+        }
+        
+        .lab-description {
+            color: #666;
+            line-height: 1.6;
+            margin-bottom: 15px;
+            font-size: 0.95em;
         }
         
         .gallery-container {
@@ -523,6 +555,64 @@
                     <li>Organized and structured data for effective analysis and presentation</li>
                 </ul>
             </div>
+        </div>
+        
+        <!-- COURSEWORK LABS SECTION -->
+        <h2 class="subsection-title">📚 Coursework Labs</h2>
+        
+        <div style="max-width: 1000px; margin: 0 auto;">
+            
+            <!-- LAB 1 - CLEANING DATA -->
+            <div class="lab-card">
+                <h3>Hands-on Lab: Cleaning Data</h3>
+                <p class="lab-description">
+                    <strong>Description:</strong> Dealing with inaccurate data by cleaning and formatting it for analysis and use.
+                </p>
+                <div class="project-role">
+                    <strong>What I Did:</strong> Dealt with inaccurate data, removed empty rows, removed duplicated data, changed the case of text, applied date formatting, and trimmed whitespace from data.
+                </div>
+                <div class="technologies">
+                    <label>Technologies Used:</label>
+                    <div class="tech-tags">
+                        <span class="tech-tag">Excel</span>
+                        <span class="tech-tag">Data Cleaning</span>
+                        <span class="tech-tag">Data Formatting</span>
+                    </div>
+                </div>
+                <div class="excel-section" style="margin-top: 15px; margin-bottom: 0;">
+                    <h4 style="color: #1565c0; margin-bottom: 12px; font-size: 1em;">📁 Lab File</h4>
+                    <p>View the Excel file with cleaned customer demographics and sales data:</p>
+                    <iframe src="Customer_demographics_and_sales_Lab6 (1).xlsx" class="excel-viewer" title="Customer Demographics and Sales"></iframe>
+                    <a href="Customer_demographics_and_sales_Lab6 (1).xlsx" download class="download-btn">⬇️ Download Excel File</a>
+                </div>
+            </div>
+            
+            <!-- TEMPLATE FOR ADDING MORE LABS -->
+            <!-- Uncomment and duplicate this section to add more labs
+            <div class="lab-card">
+                <h3>Lab Title Here</h3>
+                <p class="lab-description">
+                    <strong>Description:</strong> Brief description of what the lab covers.
+                </p>
+                <div class="project-role">
+                    <strong>What I Did:</strong> Details about your role and what you accomplished in this lab.
+                </div>
+                <div class="technologies">
+                    <label>Technologies Used:</label>
+                    <div class="tech-tags">
+                        <span class="tech-tag">Technology 1</span>
+                        <span class="tech-tag">Technology 2</span>
+                    </div>
+                </div>
+                <div class="excel-section" style="margin-top: 15px; margin-bottom: 0;">
+                    <h4 style="color: #1565c0; margin-bottom: 12px; font-size: 1em;">📁 Lab File</h4>
+                    <p>Description of the file:</p>
+                    <iframe src="filename.xlsx" class="excel-viewer" title="Lab File"></iframe>
+                    <a href="filename.xlsx" download class="download-btn">⬇️ Download Excel File</a>
+                </div>
+            </div>
+            -->
+            
         </div>
         
     </div>
